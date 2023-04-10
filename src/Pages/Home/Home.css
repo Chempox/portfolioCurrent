@@ -1,0 +1,202 @@
+.HomeContainer
+{
+    width: 90%;
+    min-height: 653px;
+    height: 100vh;
+    background-color: #E5E5E5;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.HiHidden
+{
+    display: none;
+}
+
+.CopyWrapper
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.Homeh1 span
+{
+    font-size: 6rem;
+}
+
+.red span
+{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.HomeTitle
+{
+    display: flex;
+}
+
+.HomeOl
+{
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.Homeli
+{
+    list-style: none;
+    color: black;
+    width: 165px;
+    height: 40px;
+    border-radius: 20px;
+    border: 2px solid black;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hover-underline-animation {
+    position: relative;
+    color: black;
+  }
+  
+  .hover-underline-animation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: -10px;
+    left: 0;
+    background-color: black;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover-underline-animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+
+@media(max-width: 900px)
+{
+    .Homeh1 span
+    {
+        font-size: 5rem;
+    }
+}
+
+@media(max-width: 800px)
+{
+    .Homeh1 span
+    {
+        font-size: 4rem;
+    }
+
+    .HomeContainer
+    {
+        justify-content: center;
+    }
+
+}
+
+@media(max-width: 600px)
+{
+    .Homeh1 span
+    {
+        font-size: 3.3rem;
+    }
+
+    /* .HomeOl
+    {
+        flex-direction: column;
+    } */
+
+    .Homeli h3 
+    {
+        font-size: .9rem;
+    }
+
+    .Homeli
+    {
+        width: 140px;
+    }
+}
+
+@media(max-width: 500px)
+{
+
+
+    .HomeTitle
+    {
+        flex-wrap: wrap ;
+    }
+
+    .Homeh1 span
+    {
+        font-size: 5rem;
+    }
+
+    .Homeli h3 
+    {
+        font-size: .9rem;
+    }
+
+    .Homeli
+    {
+        width: 130px;
+    }
+
+    .HomeOl
+    {
+        flex-wrap: wrap;
+    }
+}
+
+
+@media(max-width: 460px)
+{
+
+    .HomeContainer
+    {
+        display: block;
+    }
+
+    .Homeh1 span
+    {
+        font-size: 4rem;
+    }
+
+    .HiHidden
+    {
+        display: none;
+    }
+
+    .Homeh1Ghost
+    {
+        display: block;
+    }
+
+    .HomeOl
+    {
+        flex-direction: column;
+    }
+
+    .HomeCopy
+    {
+        padding-top: 10rem;
+    }
+}
+
+
+@media(max-width: 460px)
+{
+    .HomeCopy
+    {
+        padding-top: 5rem;
+    }
+}

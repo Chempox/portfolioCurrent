@@ -1,0 +1,170 @@
+.AboutMeWrapper
+{
+    width: 90%;
+    height: 100%;
+    min-height: 653px;
+    background-color: #E5E5E5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    
+}
+
+.AboutMeSkillsResponsive
+{
+    display: none;
+}
+
+.AboutMeCard
+{
+    background-color: transparent;
+    /* border-radius: 8px; */
+    /* max-width: 1000px; */
+    width: 100%;
+    padding: 3rem;
+    border: 2px solid black;
+}
+
+
+.AboutMeImgContainer  img
+{
+    max-width: 300px;
+    aspect-ratio: 1 / 1;
+    border: 2px solid black;
+}
+
+.AboutMeInfo
+{
+    height: fit-content;
+    display: flex;
+    gap: 3rem;
+}
+
+.AboutMeInfoText
+{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.AboutMeInfoText h1
+{
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+    /* text-decoration: underline; */
+    border: 2px solid black;
+    /* border-radius: 8px; */
+}
+
+.AboutMeInfoText p 
+{
+    text-align: justify;
+    font-size: 1.3rem;
+    line-height: 2.5rem;
+    font-weight: 400;
+}
+
+.AboutMeSkills
+{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    /* background-color: red; */
+}
+
+
+.AboutMeSkills h3
+{
+    font-size: 2.5rem;
+    font-weight: 300;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.SkillsUl
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+    justify-content: center;
+}
+
+.SkillsUl li
+{
+    font-size: 1rem;
+    list-style: none;
+    font-weight: bold;
+    border: 1px solid black;
+    width: 45%;
+    text-align: center;
+    padding:  .5rem 0 .5rem 0;
+    border-radius: 30px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+
+@media(max-width: 900px)
+{
+    .AboutMeInfo
+    {
+        flex-direction: column;
+    }
+
+    .AboutMeImgContainer
+    {
+        display: flex;
+        gap: 1rem;
+        /* flex-wrap: wrap; */
+    }
+}
+
+@media(max-width: 750px)
+{
+    .AboutMeImgContainer
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .AboutMeSkills
+    {
+        display: none;
+    }
+
+    .AboutMeSkillsResponsive
+    {
+        margin-top: 1rem;
+            display: block;
+    }
+}
+
+@media(max-width: 460px)
+{
+    .AboutMeImgContainer img
+    {
+        width: 238px;
+    }
+
+    .AboutMeInfo p
+    {
+        font-size: 1rem;
+    }
+
+    .AboutMeInfo h1
+    {
+        font-size: 2.5rem;
+    }
+
+    .AboutMeSkillsResponsive h3
+    {
+        border: 1px solid black;
+        text-align: center;
+        font-size: 2.5rem;
+        font-weight: bold;
+        margin-bottom: 1rem;
+    }
+}

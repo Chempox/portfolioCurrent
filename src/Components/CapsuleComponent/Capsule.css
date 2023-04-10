@@ -1,0 +1,27 @@
+.CapsuleWrapper
+{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    position: relative;
+}
+
+.CapsuleLeft
+{
+    width: 50%;
+    background-color: white;   
+    height: 300px;
+    border-radius: 20px 0px 0 20px;
+    border: 2px solid black;
+    z-index: 0;
+}
+
+.CapsuleRight
+{
+    width: 50%;
+    background-color: #23A094;   
+    height: 300px;
+    border-radius: 20px;
+    border: 2px solid black;
+    z-index: 10;
+}

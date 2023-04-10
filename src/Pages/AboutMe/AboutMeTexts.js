@@ -1,0 +1,4 @@
+export const AboutMeText = {
+    text1: 'Hey there! I\'m Juan Pablo and I\'m a software engineer based in Mexico. I\'ve been into tech since I was a kid, but it wasn\'t until high school that I really got hooked. I was part of the robotics team and we totally crushed it, scoring a gold medal at the state robotics olympiad in 2019! That experience made me realize that studying Software Engineering was my true calling.',
+    text2: 'These days, I\'ve been working as a front-end developer for a bunch of cool companies here in Mexico, as well as some international clients. But hey, I\'m always up for a new challenge - especially now that I\'m just a few months away from finishing my degree! If you\'ve got a project that needs a creative and passionate mind like mine, give me a shout. I\'m all ears!'
+}
