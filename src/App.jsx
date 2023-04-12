@@ -4,8 +4,8 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Home from './Pages/Home/Home'
 import AboutMe from './Pages/AboutMe/AboutMe'
-import HorizontalText from './Components/HorizontalText/HorizontalText'
 import Experience from './Pages/Experience/Experience'
+import HorizontalText from './Components/HorizontalText/HorizontalText'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,6 +14,7 @@ function App() {
     <div className="App">
         <Home/>
         {/* <HorizontalText baseVelocity={2}>About me</HorizontalText> */}
+        <AboutMe/>
         {/* <HorizontalText baseVelocity={-2}>Experience</HorizontalText> */}
         <Experience/>
     </div>
