@@ -10,7 +10,7 @@ export default function AboutMe() {
         <div className='AboutMeWrapper'>
             <div className="AboutMeContainer">
                 <div className='SingleCapsuleTitle'>
-                    <SingleCapsule color={'#FF90E8'} side={'100vw'}>
+                    <SingleCapsule color={'#D5FF40'} side={'100vw'}>
                         <div style={{padding: '1rem'}}>
                             <div className='ATDecoration'>
                                 <h1>.01</h1>
@@ -26,20 +26,20 @@ export default function AboutMe() {
                 <div className='AMFlexItems'>
                     <div className='DowloadAndInfo'>
                         <div className='SCInfo'>
-                            <SingleCapsule side={'-100vw'}>
+                            <SingleCapsule color={'#1B1B1F'} side={'-100vw'}>
                                 <div style={{padding: '1rem'}}>
                                     <div className='ATDecoration'>
-                                        <h1>.03</h1>
+                                        <h1 style={{color: '#A5A1FF'}}>.03</h1>
                                     </div>
                                     <div className='SCInfoText'>
-                                        <p style={{textAlign: "justify"}} >{AboutMeText.text1}</p>
-                                        <p style={{textAlign: "justify"}} >These days, I've been working as a <strong>front-end developer</strong> for a bunch of cool companies here in Mexico, as well as some international clients. But hey, I'm always up for a new challenge especially now that I'm just a few months away from finishing my degree! <strong>If you've got an interesting project, give me a shout.</strong></p>
+                                        <p style={{textAlign: "justify", color: '#A5A1FF'}} >{AboutMeText.text1}</p>
+                                        <p style={{textAlign: "justify", color: '#A5A1FF'}} >These days, I've been working as a <strong>front-end developer</strong> for a bunch of cool companies here in Mexico, as well as some international clients. But hey, I'm always up for a new challenge especially now that I'm just a few months away from finishing my degree! <strong>If you've got an interesting project, give me a shout.</strong></p>
                                     </div>
                                 </div>
                             </SingleCapsule>
                         </div>
                         <div className='SCDowload'>
-                            <SingleCapsule color={'#FFC900'} side={'-100vw'}>
+                            <SingleCapsule color={'#FF90E8'} side={'-100vw'}>
                                 <div className='dowloadbtn'>
                                     <h1>.04</h1>
                                     <h1 id='dowloadTxt'>Dowload CV</h1>
@@ -58,7 +58,7 @@ export default function AboutMe() {
                             </SingleCapsule>
                         </div>
                         <div className='SCSkills'>
-                            <SingleCapsule color={'#23A094'} side={'100vw'}>
+                            <SingleCapsule color={'#2900E8'} side={'100vw'}>
                                 <h3>Recent technologies I have worked with</h3>
                                 <ul className='SkillsUl'>
                                         <li>TypeScript</li>
@@ -73,6 +73,6 @@ export default function AboutMe() {
                     </div>
                 </div>
             </div>
-        </div>
+        // </div>
     );
 }

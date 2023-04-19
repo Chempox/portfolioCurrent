@@ -50,6 +50,6 @@ export default function Home() {
                     <li className='Homeli hover-underline-animation'><h3>CONTACT</h3></li>
                 </motion.ul>
             </div>
-        </div>
+      </div>
     );
 }

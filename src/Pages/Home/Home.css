@@ -1,12 +1,24 @@
 .HomeContainer
 {
-    width: 90%;
+    width: 100%;
     min-height: 653px;
     height: 100vh;
-    background-color: #E5E5E5;
+    max-height: 1000px;
+    background-color: black;
+    /* background-color: #E5E5E5; */
+    /* background-image: url('/src/assets/Images/background.png'); */
     display: flex;
     align-items: center;
+    justify-content: center;
     position: relative;
+    color: white;
+}
+
+.HomeCopy
+{
+    width: 100%;
+    max-width: 1300px;
+    padding: 2rem;
 }
 
 .HiHidden
@@ -30,6 +42,7 @@
 {
     font-weight: bold;
     text-decoration: underline;
+    color: white;
 }
 
 .HomeTitle
@@ -44,14 +57,18 @@
     margin-top: 1rem;
 }
 
+.HomeOl li
+{
+    color: white;
+}
+
 .Homeli
 {
     list-style: none;
-    color: black;
     width: 165px;
     height: 40px;
     border-radius: 20px;
-    border: 2px solid black;
+    border: 2px solid white;
     cursor: pointer;
     display: flex;
     justify-content: center;
@@ -60,7 +77,7 @@
 
 .hover-underline-animation {
     position: relative;
-    color: black;
+    color: white;
   }
   
   .hover-underline-animation::after {
@@ -71,7 +88,7 @@
     height: 2px;
     bottom: -10px;
     left: 0;
-    background-color: black;
+    background-color: white;
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
   }

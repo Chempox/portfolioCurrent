@@ -3,6 +3,11 @@
     display: flex;
     justify-content: center;
     width: 100%;
+    min-height: 653px;
+    height: 100vh;
+    max-height: 1000px;
+    background-color: black;
+    padding: 0rem 0 5rem 0;
 }
 
 .AboutMeContainer
@@ -10,13 +15,13 @@
     max-width: 1300px;
     min-height: 653px;
     height: 100%;
-    width: 90%;
-    background-color: #E5E5E5;
+    width: 100%;
+    /* background-color: blue;   */
     overflow: hidden;
     /* display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: repeat(9, 1fr); */
-    padding: 2rem 0 2rem 0;
+    /* padding: 2rem 5% 2rem 5%; */
 }
 
 .SingleCapsuleTitle
