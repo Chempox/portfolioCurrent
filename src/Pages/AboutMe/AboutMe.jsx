@@ -58,7 +58,7 @@ export default function AboutMe() {
                             </SingleCapsule>
                         </div>
                         <div className='SCSkills'>
-                            <SingleCapsule color={'#2900E8'} side={'100vw'}>
+                            <SingleCapsule color={'#C6FF2D'} side={'100vw'}>
                                 <h3>Recent technologies I have worked with</h3>
                                 <ul className='SkillsUl'>
                                         <li>TypeScript</li>

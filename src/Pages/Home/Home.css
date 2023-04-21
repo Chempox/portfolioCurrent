@@ -3,8 +3,8 @@
     width: 100%;
     min-height: 653px;
     height: 100vh;
-    max-height: 1000px;
-    background-color: black;
+    max-height: 1500px;
+    background-color: #222222;
     /* background-color: #E5E5E5; */
     /* background-image: url('/src/assets/Images/background.png'); */
     display: flex;
@@ -12,6 +12,8 @@
     justify-content: center;
     position: relative;
     color: white;
+
+    
 }
 
 .HomeCopy

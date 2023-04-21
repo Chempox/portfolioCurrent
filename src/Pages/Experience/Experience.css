@@ -2,9 +2,14 @@
 {
     width: 100%;
     /* padding: 2rem 5% 2rem 5%; */
-    min-height: 100vh;
+    /* min-height: 100vh; */
     height: fit-content;
-    background-color: black;
+    max-height: 1000px;
+    background-color: #222222;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    padding: 0rem 0 5rem 0;
 }
 
 .ExperienceContainer
@@ -12,14 +17,15 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     width: 100%;
-    min-height: 100vh;
+    max-width: 1300px;
+    min-height: 653px;
     /* background-color: blue; */
 }
 
 .gridItem
 {
-    background-color: #1B1B1F;
-    border: 2px solid black;
+    /* background-color: #1B1B1F; */
+    border: 2px solid #C6FF2D;
     border-radius: 50px;
     min-height: 200px;
     height: 100%;
@@ -39,15 +45,15 @@
     display: flex;
     flex-direction: column;
     padding: 2rem;
-    color: white;
-    background-color: #FDD723;
+    color: #C6FF2D;
+    /* background-color: #FDD723; */
 }
 
 .item1 img
 {
     width: 100%;
     height: 100px;
-    object-fit: fill;
+    object-fit: contain;
 }
 
 .item2
@@ -56,8 +62,8 @@
     flex-direction: column;
     overflow: hidden;
     padding: 1rem;
-    /* color: white; */
-    background-color: white;
+    color: #C6FF2D;
+    /* background-color: #C6FF2D;     */
 }
 
 .item2 img
@@ -73,8 +79,8 @@
     flex-direction: column;
     overflow: hidden;
     padding: 1rem;
-    background-color: #273C66;
-    color: white;
+    /* background-color: #273C66; */
+    color: #C6FF2D;
 }
 
 .item3 img
@@ -90,8 +96,8 @@
     display: flex;
     flex-direction: column;
     padding: 1rem;
-    background-color: #00953B;
-    color: white;
+    /* background-color: white; */
+    color: #C6FF2D;
 }
 
 .item4 img{

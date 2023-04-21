@@ -37,8 +37,8 @@ export default function Home() {
                     <h1 className='Homeh1 red'><AnimatedTextCharacter text={'Juan.'} delay={1} letterDelay={0.08}/></h1>    
                 </div>
                 <motion.ul
-                initial={{ x: -1000}}
-                animate={{x: 0}}
+                initial={{ x: -1000, opacity: 0}}
+                animate={{x: 0, opacity: 1}}
                 transition={{duration: 0.5,delay: 1.6}}
                 // initial="offscreen"
                 // whileInView="onscreen"
