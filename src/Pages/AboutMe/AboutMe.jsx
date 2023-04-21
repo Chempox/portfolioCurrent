@@ -2,6 +2,8 @@ import Capsule from '../../Components/CapsuleComponent/Capsule';
 import SingleCapsule from '../../Components/SingleCapsule/SingleCapsule';
 import './AboutMe.css'
 import { AboutMeText } from '../AboutMe/AboutMeTexts';
+import {TbWorldDownload} from 'react-icons/tb'
+import {ImArrowUp} from 'react-icons/Im'
 
 
 export default function AboutMe() {
@@ -13,13 +15,13 @@ export default function AboutMe() {
                     <SingleCapsule color={'#D5FF40'} side={'100vw'}>
                         <div style={{padding: '1rem'}}>
                             <div className='ATDecoration'>
-                                <h1>.01</h1>
+                                <h1 style={{color: '#C6FF2D'}}>.01</h1>
                                 <div>
-                                    <h1>This side up</h1>
-                                    <img src={"/src/assets/Images/this-side-up.png"} alt="" />
+                                    <h1 style={{color: '#C6FF2D'}}>This side up</h1>
+                                    <ImArrowUp style={{color: '#C6FF2D', fontSize: '1.5rem'}} />
                                 </div>
                             </div>
-                            <h1 style={{textAlign: "center", fontWeight: "bold"}} >ABOUT ME.</h1>
+                            <h1 style={{textAlign: "center", fontWeight: "bold", color: '#C6FF2D'}} >ABOUT ME.</h1>
                         </div>
                     </SingleCapsule>
                 </div>
@@ -29,11 +31,11 @@ export default function AboutMe() {
                             <SingleCapsule color={'#1B1B1F'} side={'-100vw'}>
                                 <div style={{padding: '1rem'}}>
                                     <div className='ATDecoration'>
-                                        <h1 style={{color: '#A5A1FF'}}>.03</h1>
+                                        <h1 style={{color: '#C6FF2D'}}>.03</h1>
                                     </div>
                                     <div className='SCInfoText'>
-                                        <p style={{textAlign: "justify", color: '#A5A1FF'}} >{AboutMeText.text1}</p>
-                                        <p style={{textAlign: "justify", color: '#A5A1FF'}} >These days, I've been working as a <strong>front-end developer</strong> for a bunch of cool companies here in Mexico, as well as some international clients. But hey, I'm always up for a new challenge especially now that I'm just a few months away from finishing my degree! <strong>If you've got an interesting project, give me a shout.</strong></p>
+                                        <p style={{textAlign: "justify", color: '#C6FF2D'}} >{AboutMeText.text1}</p>
+                                        <p style={{textAlign: "justify", color: '#C6FF2D'}} >These days, I've been working as a <strong>front-end developer</strong> for a bunch of cool companies here in Mexico, as well as some international clients. But hey, I'm always up for a new challenge especially now that I'm just a few months away from finishing my degree! <strong>If you've got an interesting project, give me a shout.</strong></p>
                                     </div>
                                 </div>
                             </SingleCapsule>
@@ -43,7 +45,8 @@ export default function AboutMe() {
                                 <div className='dowloadbtn'>
                                     <h1>.04</h1>
                                     <h1 id='dowloadTxt'>Dowload CV</h1>
-                                    <img className='dowloadIcon' src={"/src/assets/Images/box-arrow-down.svg"} alt="me" />
+                                    <TbWorldDownload style={{fontSize: '3.5rem'}}/>
+                                    {/* <img className='dowloadIcon' src={"/src/assets/Images/box-arrow-down.svg"} alt="me" /> */}
                                 </div>
                             </SingleCapsule>
                         </div>
@@ -73,6 +76,6 @@ export default function AboutMe() {
                     </div>
                 </div>
             </div>
-        // </div>
+        </div>
     );
 }

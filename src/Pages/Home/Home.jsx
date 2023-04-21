@@ -26,6 +26,7 @@ export default function Home() {
       };
     
     return (
+      <>
         <div className='HomeContainer'>
             <div className='HomeCopy'>
                 <h1 className='Homeh1 Homeh1Ghost'><AnimatedText text='Hi ,' delay={0.04}/></h1>
@@ -51,5 +52,8 @@ export default function Home() {
                 </motion.ul>
             </div>
       </div>
+      {/* <article>
+      </article> */}
+      </>
     );
 }

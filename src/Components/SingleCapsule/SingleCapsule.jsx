@@ -30,7 +30,7 @@ export default function SingleCapsule(props) {
             style={{
                 transform: isInView ? "none" : `translateX(${props.side})`,
                 transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.3s",
-                background: props.color
+                background: 'transparent'
               }}
             className= 'SCWrapper'>
                 {props.children}

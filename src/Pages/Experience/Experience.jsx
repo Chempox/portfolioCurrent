@@ -4,6 +4,7 @@ import { useRef } from 'react';
 import { motion, useInView} from 'framer-motion';
 import {FaReact} from 'react-icons/fa'
 import {TbBrandNextjs} from 'react-icons/tb'
+import {SiSvelte, SiTypescript, SiJavascript, SiKotlin, SiAndroid} from 'react-icons/si'
 
 
 export default function Experience() {
@@ -29,6 +30,12 @@ export default function Experience() {
 
     return (
         <div ref={ref} className='ExperienceWrapper'>
+            <div className='ExperienceTitle'>
+                    <div className='EtPad'>
+                        <h1>Experience.</h1>
+                    </div>
+                    {/* <div className='markersDiv'/> */}
+            </div>
             <div className='ExperienceContainer'>
                 <motion.div 
                 animate={isInView ? 'onscreen':'offscreen'} 
@@ -40,6 +47,7 @@ export default function Experience() {
                         <div style={{display: 'flex', gap: '1rem'}}>
                             <h1><FaReact/></h1>
                             <h1><TbBrandNextjs/></h1>
+                            <h1><SiJavascript/></h1>
                         </div>
                     </div>
                     <div style={{flex: '1 1 auto', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
@@ -56,7 +64,10 @@ export default function Experience() {
                 variants={variants} className='gridItem item2'>
                     <div style={{display: 'flex', justifyContent:'space-between'}}>
                         <h1>.02</h1>
-                        <h1>SAAS</h1>
+                        <div style={{display: 'flex', gap: '1rem'}}>
+                            <h1><SiSvelte/></h1>
+                            <h1><SiJavascript/></h1>
+                        </div>
                     </div>
                     <div style={{flex: '1 1 auto', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
                         <img src={"/src/assets/Images/kindorseLogo.png"} alt="" />  
@@ -72,7 +83,10 @@ export default function Experience() {
                 variants={variants} className='gridItem item3'>
                     <div style={{display: 'flex', justifyContent:'space-between'}}>
                         <h1>.02</h1>
-                        <h1>SAAS</h1>
+                        <div style={{display: 'flex', gap: '1rem'}}>
+                            <h1><SiSvelte/></h1>
+                            <h1><SiTypescript/></h1>
+                        </div>
                     </div>
                     <div style={{flex: '1 1 auto', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
                         <img src={"/src/assets/Images/CityOfFestivals.png"} alt="" />  
@@ -88,7 +102,12 @@ export default function Experience() {
                 variants={variants} className='gridItem item4'>
                     <div style={{display: 'flex', justifyContent:'space-between'}}>
                         <h1>.02</h1>
-                        <h1>SAAS</h1>
+                        <div style={{display: 'flex', gap: '1rem'}}>
+                            <h1><FaReact/></h1>
+                            <h1><SiJavascript/></h1>
+                            <h1><SiKotlin/></h1>
+                            <h1><SiAndroid/></h1>
+                        </div>
                     </div>
                     <div style={{flex: '1 1 auto', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
                         <img src={"/src/assets/Images/BAMX.png"} alt="" />  
