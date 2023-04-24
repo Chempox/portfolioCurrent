@@ -46,7 +46,6 @@ export default function AboutMe() {
                                     <h1>.04</h1>
                                     <h1 id='dowloadTxt'>Dowload CV</h1>
                                     <TbWorldDownload style={{fontSize: '3.5rem'}}/>
-                                    {/* <img className='dowloadIcon' src={"/src/assets/Images/box-arrow-down.svg"} alt="me" /> */}
                                 </div>
                             </SingleCapsule>
                         </div>

@@ -5,6 +5,7 @@ import { motion, useInView} from 'framer-motion';
 import {FaReact} from 'react-icons/fa'
 import {TbBrandNextjs} from 'react-icons/tb'
 import {SiSvelte, SiTypescript, SiJavascript, SiKotlin, SiAndroid} from 'react-icons/si'
+import { Link } from 'react-router-dom';
 
 
 export default function Experience() {
