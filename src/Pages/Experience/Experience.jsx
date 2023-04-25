@@ -5,13 +5,14 @@ import { motion, useInView} from 'framer-motion';
 import {FaReact} from 'react-icons/fa'
 import {TbBrandNextjs} from 'react-icons/tb'
 import {SiSvelte, SiTypescript, SiJavascript, SiKotlin, SiAndroid} from 'react-icons/si'
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 
 export default function Experience() {
 
     const ref = useRef(null);
     const isInView = useInView(ref, { once: true, amount: .5 });
+    const navigate = useNavigate();
 
     const variants = {
         offscreen: {
@@ -28,6 +29,11 @@ export default function Experience() {
         }
     };
 
+    const handleNavigation = (url) =>
+    {
+        var win = window.open(url, '_blank');
+        win.focus();
+    }
 
     return (
         <div ref={ref} className='ExperienceWrapper'>
@@ -38,7 +44,8 @@ export default function Experience() {
                     {/* <div className='markersDiv'/> */}
             </div>
             <div className='ExperienceContainer'>
-                <motion.div 
+                <motion.div
+                onClick={()=> handleNavigation('/experience/fanguest')} 
                 animate={isInView ? 'onscreen':'offscreen'} 
                 transition={{duration: .7}}
                 variants={variants}
@@ -60,6 +67,7 @@ export default function Experience() {
                     </div>
                 </motion.div>
                 <motion.div
+                onClick={()=> handleNavigation('/experience/fanguest')} 
                 animate={isInView ? 'onscreen':'offscreen'}
                 transition={{duration: 1}}
                 variants={variants} className='gridItem item2'>
@@ -79,6 +87,7 @@ export default function Experience() {
                     </div>
                 </motion.div>
                 <motion.div
+                onClick={()=> handleNavigation('/experience/fanguest')} 
                 animate={isInView ? 'onscreen':'offscreen'}
                 transition={{duration: 1.5}}
                 variants={variants} className='gridItem item3'>
@@ -97,7 +106,8 @@ export default function Experience() {
                         <h1>-{'>'}</h1>
                     </div>
                 </motion.div>
-                <motion.div 
+                <motion.div
+                onClick={()=> handleNavigation('/experience/fanguest')}  
                 animate={isInView ? 'onscreen':'offscreen'}
                 transition={{duration: 1.3}}
                 variants={variants} className='gridItem item4'>
