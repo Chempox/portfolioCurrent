@@ -9,9 +9,9 @@ export default function LandingPage() {
         <div>
             <Home/>
             <AboutMe/>
-            <Experience/>
+            {/* <Experience/>
             <ContactMe/>
-            <Footer/>
+            <Footer/> */}
         </div>
     );
 }
