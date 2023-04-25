@@ -224,3 +224,32 @@
         
     }
 }
+
+@media(max-width: 800px)
+{
+    .AMFlexItems
+    {
+        flex-direction: column-reverse;
+    }
+    .ImageAndSkills
+    {
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .SkillsUl
+    {
+        width: 100%;
+        display: flex;
+        justify-content: normal;
+        align-items: normal;
+        padding: 1rem;
+        flex-wrap: wrap;
+    }
+
+    .SkillsUl li
+    {
+        width: 48%;
+        margin: 0;
+    }
+}
