@@ -224,3 +224,20 @@
         
     }
 }
+
+
+@media(max-width: 820px)
+{
+    .AMFlexItems
+    {
+        flex-direction:column-reverse;
+    }
+    
+    .ImageAndSkills
+    {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+}
