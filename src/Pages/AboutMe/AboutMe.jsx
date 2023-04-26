@@ -55,7 +55,7 @@ export default function AboutMe() {
                             <SingleCapsule color={'#2900E8'} side={'100vw'}>
                                     <h1>.02</h1>
                                     <div className='SCImage'>
-                                        <img className='fillM' src={"/public/images/aboutMePic.jpg"} alt="me" />
+                                        <img className='fillM' src={"/images/aboutMePic.jpg"} alt="me" />
                                     </div>
                             </SingleCapsule>
                         </div>

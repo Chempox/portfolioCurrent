@@ -99,7 +99,7 @@ export default function Experience() {
                         </div>
                     </div>
                     <div style={{flex: '1 1 auto', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
-                        <img src={"/public/images/CityOfFestivals.png"} alt="" />  
+                        <img src={"/images/CityOfFestivals.png"} alt="" />  
                     </div>
                     <div style={{display: 'flex', justifyContent: 'space-between'}}>
                         <h1>Launch Project</h1>

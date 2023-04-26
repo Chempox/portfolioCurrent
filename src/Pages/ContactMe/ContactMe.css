@@ -7,7 +7,7 @@
     align-items: center;
     justify-content: center;
     background-color: #222222;
-    padding: 0 0 10rem 0;
+    padding: 0 1rem 10rem 1rem;
 }
 
 .contactMeContainer
@@ -83,4 +83,57 @@
 
 .extraInfo a{
     color: #C6FF2D;
+}
+
+
+@media(max-width: 870px)
+{
+    .contactMeContainer h1
+    {
+        font-size: 3.2rem;
+    }
+}
+
+
+@media(max-width: 730px)
+{
+    .contactMeContainer h1
+    {
+        font-size: 2.7rem;
+    }
+
+    .contactMeContainer
+    {
+        height: 300px;
+    }
+}
+
+@media(max-width: 620px)
+{
+    .contactMeContainer h1
+    {
+        font-size: 2rem;
+        text-align: center;
+        width: 300px;
+        line-height: 3.5rem;
+    }
+
+}
+
+@media(max-width: 370px)
+{
+    .contactMeContainer
+    {
+        height: fit-content;
+    }
+    .contactMeContainer h1
+    {
+        font-size: 2rem;
+        width: 150px;
+    }
+
+    .extraInfo h1 
+    {
+        font-size: 1.4rem;
+    }
 }
