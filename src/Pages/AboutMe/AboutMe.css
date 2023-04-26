@@ -215,6 +215,7 @@
     {
         justify-content: space-evenly;
         height: 100%;
+        padding: 1rem 0 1rem 0;
     }
     .SkillsUl li
     {
@@ -306,5 +307,60 @@
         flex-direction: column;
         width: 100%;
         align-items: center;
+    }
+
+
+    .SCSkills
+    {
+        width: 100%;
+    }
+
+    .SCImage
+    {
+        max-height: 800px;
+    }
+
+    .SCImageWrapper
+    {
+        width: 60%;
+    }
+    
+}
+
+@media(max-width: 500px)
+{
+    .SCImageWrapper
+    {
+        width: 100%;
+    }
+
+    .SkillsUl
+    {
+        gap:1rem;
+    }
+
+    .SkillsUl
+    {
+        height: 100%;
+    }
+
+    .SkillsUl li
+    {
+        width: 100%;
+    }
+
+    .ImageAndSkills
+    {
+        width: 100%;
+    }
+
+    .AMFlexItems
+    {
+        gap: 5rem
+    }
+
+    .SCInfoText p
+    {
+        font-size: 1.5rem;
     }
 }
