@@ -59,7 +59,7 @@ export default function Experience() {
                         </div>
                     </div>
                     <div style={{flex: '1 1 auto', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
-                        <img src={"/src/assets/Images/FanguestLogo.png"} alt="" />  
+                        <img src={"/public/images/FanguestLogo.png"} alt="" />  
                     </div>
                     <div style={{display: 'flex', justifyContent: 'space-between'}}>
                         <h1>Launch Project</h1>
@@ -79,7 +79,7 @@ export default function Experience() {
                         </div>
                     </div>
                     <div style={{flex: '1 1 auto', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
-                        <img src={"/src/assets/Images/kindorseLogo.png"} alt="" />  
+                        <img src={"/public/images/kindorseLogo.png"} alt="" />  
                     </div>
                     <div style={{display: 'flex', justifyContent: 'space-between'}}>
                         <h1>Launch Project</h1>
@@ -99,7 +99,7 @@ export default function Experience() {
                         </div>
                     </div>
                     <div style={{flex: '1 1 auto', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
-                        <img src={"/src/assets/Images/CityOfFestivals.png"} alt="" />  
+                        <img src={"/public/images/CityOfFestivals.png"} alt="" />  
                     </div>
                     <div style={{display: 'flex', justifyContent: 'space-between'}}>
                         <h1>Launch Project</h1>
@@ -121,7 +121,7 @@ export default function Experience() {
                         </div>
                     </div>
                     <div style={{flex: '1 1 auto', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
-                        <img src={"/src/assets/Images/BAMX.png"} alt="" />  
+                        <img src={"/public/images/BAMX.png"} alt="" />  
                     </div>
                     <div style={{display: 'flex', justifyContent: 'space-between'}}>
                         <h1>Launch Project</h1>

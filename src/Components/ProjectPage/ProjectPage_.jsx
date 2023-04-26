@@ -23,19 +23,19 @@ export default function ProjectPage() {
 
     const slideImages = [
     {
-        url: "/src/assets/Images/Fanguest-1.png",
+        url: "/public/images/Images/Fanguest-1.png",
         // caption: 'Slide 1'
     },
     {
-        url: '/src/assets/Images/Fanguest-2.png',
+        url: '/public/images/Images/Fanguest-2.png',
         // caption: 'Slide 2'
     },
     {
-        url: '/src/assets/Images/Fanguest-3.png',
+        url: '/public/images/Images/Fanguest-3.png',
         // caption: 'Slide 3'
     },
     {
-        url: '/src/assets/Images/Fanguest-4.png',
+        url: '/public/images/Images/Fanguest-4.png',
         // caption: 'Slide 3'
     },
     ];
