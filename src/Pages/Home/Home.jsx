@@ -35,7 +35,7 @@ export default function Home() {
                     <h1 className='Homeh1'><AnimatedText text='my ' delay={0.24}/></h1>
                     <h1 className='Homeh1'><AnimatedText text='name ' delay={0.44}/></h1>
                     <h1 className='Homeh1'><AnimatedText text='is ' delay={0.66}/></h1>
-                    <h1 className='Homeh1 red'><AnimatedTextCharacter text={'Juan.'} delay={1} letterDelay={0.08}/></h1>    
+                    <h1 className='Homeh1 red'><AnimatedTextCharacter text={'Pablo.'} delay={1} letterDelay={0.08}/></h1>    
                 </div>
                 <motion.ul
                 initial={{ x: -1000, opacity: 0}}

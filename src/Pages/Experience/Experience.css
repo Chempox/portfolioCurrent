@@ -17,97 +17,14 @@
 .ExperienceContainer
 {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-columns: 1fr 1fr 1fr; */
     width: 100%;
     max-width: 1300px;
     min-height: 653px;
     gap: 1rem;
-    /* background-color: blue; */
-}
-
-.gridItem
-{
-    /* background-color: #1B1B1F; */
-    border: 2px solid #C6FF2D;
-    border-radius: 20px;
-    min-height: 200px;
-    height: 100%;
-    transition: padding .3s;
-    cursor: pointer;
-}
-
-.gridItem:hover
-{
-    padding: 3rem;
-}
-
-.item1
-{
-    overflow: hidden;
-    grid-column: 1/3;
-    display: flex;
-    flex-direction: column;
-    padding: 2rem;
-    color: #C6FF2D;
-    /* background-color: #FDD723; */
-}
-
-.item1 img
-{
-    width: 100%;
-    height: 100px;
-    object-fit: contain;
-}
-
-.item2
-{
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-    padding: 1rem;
-    color: #C6FF2D;
-    /* background-color: #C6FF2D;     */
-}
-
-.item2 img
-{
-    width: 100%;
-    height: 100px;
-    object-fit: contain;
-}
-
-.item3
-{
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-    padding: 1rem;
-    /* background-color: #273C66; */
-    color: #C6FF2D;
-}
-
-.item3 img
-{
-    width: auto;
-    height: 80px;
-}
-
-.item4
-{
-    grid-column: 2/4;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    padding: 1rem;
-    /* background-color: white; */
-    color: #C6FF2D;
-}
-
-.item4 img{
-    width: auto;
-    height: 150px;
-    max-height: 100%;
-    object-fit: contain;
+    grid-template:
+                 'a a b' 1fr
+                 'c c d' 1fr;
 }
 
 .ExperienceTitle
@@ -160,52 +77,6 @@
 
 @media(max-width: 1100px)
 {
-    .gridItem
-    {
-        height: 250px;
-    }
-
-    .item1
-    {
-        grid-column: 1/4;
-        padding: 1rem;
-    }
-
-    .item1 img
-    {
-        height: 80px;
-    }
-
-    .item2
-    {
-        grid-column: 1/4;
-    }
-
-    .item2 img
-    {
-        height: 80px;
-    }
-
-    .item3
-    {
-        grid-column: 1/4;
-    }
-
-    .item3 img
-    {
-        height: 80px;
-    }
-
-    .item4
-    {
-        grid-column: 1/4;
-    }
-
-    .item4 img
-    {
-        height: 80px;
-    }
-
     .ExperienceWrapper
     {
         max-height: none;
@@ -215,8 +86,5 @@
 
 @media(max-width: 360px)
 {
-    .gridItem img
-    {
-        height: 60px;
-    }
+
 }
