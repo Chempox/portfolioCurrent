@@ -24,7 +24,7 @@
     gap: 1rem;
     grid-template:
                  'a a b' 1fr
-                 'c c d' 1fr;
+                 'c d d' 1fr;
 }
 
 .ExperienceTitle
@@ -80,6 +80,18 @@
     .ExperienceWrapper
     {
         max-height: none;
+    }
+}
+
+@media(max-width: 1000px)
+{
+    .ExperienceContainer
+    {
+        grid-template:
+        'a a a' 1fr
+        'b b b' 1fr
+        'c c c' 1fr
+        'd d d' 1fr;
     }
 }
 

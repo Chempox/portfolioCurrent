@@ -20,13 +20,31 @@ export default function Experience() {
 
     const props = {
         imageUrl: '/images/FanguestLogo.png',
-        technologies: {
-            react: <FaReact/>,
-            next: <TbBrandNextjs/>,
-            js: <SiJavascript/>
-        },
-        projectUrl: '/experience/fanguest'
+        technologies: [<FaReact/>,<TbBrandNextjs/>,<SiJavascript/>],
+        projectUrl: '/experience/fanguest',
+        gridArea: 'a',
 
+    }
+
+    const props2 = {
+        imageUrl: '/images/kindorseLogo.png',
+        technologies: [<FaReact/>,<TbBrandNextjs/>,<SiJavascript/>],
+        projectUrl: '/experience/fanguest',
+        gridArea: 'b',
+    }
+    
+    const props3 = {
+        imageUrl: '/images/CityOfFestivals.png',
+        technologies: [<FaReact/>,<TbBrandNextjs/>,<SiJavascript/>],
+        projectUrl: '/experience/fanguest',
+        gridArea: 'c',
+    }
+
+    const props4 = {
+        imageUrl: '/images/BAMX.png',
+        technologies: [<FaReact/>,<TbBrandNextjs/>,<SiJavascript/>],
+        projectUrl: '/experience/fanguest',
+        gridArea: 'd',
     }
 
     return (
@@ -39,6 +57,9 @@ export default function Experience() {
             </div>
             <div className='ExperienceContainer'>
                 <GridSquare {...props}/>
+                <GridSquare {...props2}/>
+                <GridSquare {...props3}/>
+                <GridSquare {...props4}/>
             </div>
         </div>
     );

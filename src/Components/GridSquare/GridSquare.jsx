@@ -5,6 +5,8 @@ import {TbBrandNextjs} from 'react-icons/tb'
 import {SiSvelte, SiTypescript, SiJavascript, SiKotlin, SiAndroid} from 'react-icons/si'
 import { Link, useNavigate } from 'react-router-dom';
 
+import './GridSquare.css'
+
 
 export default function GridSquare (props) {
 
@@ -28,7 +30,7 @@ export default function GridSquare (props) {
 
     const ref = useRef(null);
 
-    const isInView = useInView(ref, { once: true, amount: .5 });
+    const isInView = useInView(ref, { once: true, amount: 1 });
 
 
     const handleNavigation = (url) =>
@@ -37,20 +39,23 @@ export default function GridSquare (props) {
         win.focus();
     }
 
+    const technologies = props.technologies.map((item, index)=>
+    <h1 key={index}>{item}</h1>
+    )
+
     return (
-        <div ref={ref}>
+        <div style={{gridArea: props.gridArea}} className='gs-main' ref={ref}>
             <motion.div
             onClick={()=> handleNavigation('/experience/fanguest')} 
             animate={isInView ? 'onscreen':'offscreen'} 
             transition={{duration: .7}}
             variants={variants}
+            className='gridItem'
             >
                 <div style={{display: 'flex', justifyContent:'space-between'}}>
                     <h1>.01</h1>
                     <div style={{display: 'flex', gap: '1rem'}}>
-                        <h1><FaReact/></h1>
-                        <h1><TbBrandNextjs/></h1>
-                        <h1><SiJavascript/></h1>
+                        {technologies}
                     </div>
                 </div>
                 <div style={{flex: '1 1 auto', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
