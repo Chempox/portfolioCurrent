@@ -14,14 +14,14 @@ export default function GridSquare (props) {
         offscreen: {
             scale: 0,
             opacity: 0,
-            transition: 
-            {
-                duration: 1 ,
-            }
         },
         onscreen: {
             scale: 1,
             opacity: 1,
+            transition: 
+            {
+                duration: 1 ,
+            }
         }
     };
 
@@ -48,7 +48,6 @@ export default function GridSquare (props) {
             <motion.div
             onClick={()=> handleNavigation('/experience/fanguest')} 
             animate={isInView ? 'onscreen':'offscreen'} 
-            transition={{duration: .7}}
             variants={variants}
             className='gridItem'
             >

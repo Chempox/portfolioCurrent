@@ -16,15 +16,15 @@
     border-radius: 20px;
     min-height: 200px;
     height: 100%;
-    transition: padding .3s;
+    /* transition: padding .3s; */
     cursor: pointer;
     color: #C6FF2D;
 }
 
-.gridItem:hover
+/* .gridItem:hover
 {
     padding: 1.5rem;
-}
+} */
 
 
 .gridItem img
@@ -37,5 +37,5 @@
 {
     .gridItem img {
         height: 2.5rem;
-    };
+    }
 }
