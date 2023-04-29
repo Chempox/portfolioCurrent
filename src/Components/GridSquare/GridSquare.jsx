@@ -45,10 +45,11 @@ export default function GridSquare (props) {
 
     return (
         <div style={{gridArea: props.gridArea}} className='gs-main' ref={ref}>
-            <motion.div
+            <div
             onClick={()=> handleNavigation('/experience/fanguest')} 
-            animate={isInView ? 'onscreen':'offscreen'} 
-            variants={variants}
+            // animate={isInView ? 'onscreen':'offscreen'} 
+            // variants={variants}
+            style={isInView ? {transform: 'scale(1)', opacity: '1'} : {transform: 'scale(0)', opacity: '0'}}
             className='gridItem'
             >
                 <div style={{display: 'flex', justifyContent:'space-between'}}>
@@ -64,7 +65,7 @@ export default function GridSquare (props) {
                     <h1>Launch Project</h1>
                     <h1>-{'>'}</h1>
                 </div>
-            </motion.div>
+            </div>
         </div>
     );
 }

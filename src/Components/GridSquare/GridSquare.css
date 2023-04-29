@@ -16,7 +16,7 @@
     border-radius: 20px;
     min-height: 200px;
     height: 100%;
-    /* transition: padding .3s; */
+    transition: all .5s ease-in-out;
     cursor: pointer;
     color: #C6FF2D;
 }
@@ -34,6 +34,13 @@
 }
 
 @media(max-width: 420px)
+{
+    .gridItem img {
+        height: 3rem;
+    }
+}
+
+@media(max-width: 340px)
 {
     .gridItem img {
         height: 2.5rem;
