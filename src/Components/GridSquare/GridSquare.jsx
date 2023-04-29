@@ -1,5 +1,5 @@
 import { useRef } from 'react';
-import { motion, useInView} from 'framer-motion';
+import { useInView } from 'framer-motion';
 import {FaReact} from 'react-icons/fa'
 import {TbBrandNextjs} from 'react-icons/tb'
 import {SiSvelte, SiTypescript, SiJavascript, SiKotlin, SiAndroid} from 'react-icons/si'
