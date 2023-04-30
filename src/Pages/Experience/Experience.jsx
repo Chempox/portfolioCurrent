@@ -48,7 +48,7 @@ export default function Experience() {
     }
 
     return (
-        <div className='ExperienceWrapper'>
+        <div className='ExperienceWrapper' id='ExperienceSection'>
             <div className='ExperienceTitle'>
                     <div className='EtPad'>
                         <h1>Experience.</h1>

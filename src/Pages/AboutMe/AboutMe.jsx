@@ -9,7 +9,7 @@ import {ImArrowUp} from 'react-icons/Im'
 export default function AboutMe() {
 
     return (
-        <div className='AboutMeWrapper'>
+        <div className='AboutMeWrapper' id='AboutMeSection'>
             <div className="AboutMeContainer">
                 <div className='SingleCapsuleTitle'>
                     <SingleCapsule color={'#D5FF40'} side={'100vw'}>

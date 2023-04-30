@@ -1,9 +1,9 @@
 import AnimatedText from '../../Components/AnimatedText/AnimatedText';
 import AnimatedTextCharacter from '../../Components/AnimatedTextCharacters/AnimatedTextCharacter';
 import './Home.css'
-import { motion, useScroll} from 'framer-motion';
+import { motion } from 'framer-motion';
 
-export default function Home() {
+export default function Home(props) {
 
     const cardVariants = {
         offscreen: {
@@ -24,6 +24,16 @@ export default function Home() {
           }
         }
       };
+
+      const handleClickScroll = (section) => {
+        const element = document.getElementById(section);
+        if (element) {
+          // 👇 Will scroll smoothly to the top of the next section
+          element.scrollIntoView({ behavior: 'smooth' });
+        }
+      };
+    
+
     
     return (
       <>
@@ -46,9 +56,9 @@ export default function Home() {
                 // variants={cardVariants}
                 // viewport={{ once: false, amount: 1 }}
                 className='HomeOl'>
-                    <li className='Homeli hover-underline-animation'><h3>ABOUT ME</h3></li>
-                    <li className='Homeli hover-underline-animation'><h3>EXPERIENCE</h3></li>
-                    <li className='Homeli hover-underline-animation'><h3>CONTACT</h3></li>
+                    <li className='Homeli hover-underline-animation' onClick={()=>handleClickScroll('AboutMeSection')}><h3>ABOUT ME</h3></li>
+                    <li className='Homeli hover-underline-animation' onClick={()=>handleClickScroll('ExperienceSection')} ><h3>EXPERIENCE</h3></li>
+                    <li className='Homeli hover-underline-animation' onClick={()=>handleClickScroll('ContactSection')}><h3>CONTACT</h3></li>
                 </motion.ul>
             </div>
       </div>

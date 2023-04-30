@@ -3,7 +3,7 @@ import {AiOutlineMail, AiFillLinkedin} from 'react-icons/ai'
 
 export default function ContactMe() {
     return (
-        <div className="contactMeWrapper">
+        <div className="contactMeWrapper" id='ContactSection'>
             <div className="contactMeContainer">
                 <h1>Don't be shy, say hi {'(◠﹏◠)'}</h1>
                 <button><a href="mailto:pablo.yanez@proton.me">Contact me</a></button>
