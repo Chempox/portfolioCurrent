@@ -145,7 +145,6 @@
     color: #C6FF2D;
     cursor: pointer;
     height: fit-content;
-
     min-height: 80px;
 }
 
@@ -157,6 +156,9 @@
     align-items: center;
     gap: 1rem;
     justify-content: center;
+    background-color: transparent;
+    color: #C6FF2D;
+    cursor: pointer;
 }
 
 #dowloadTxt
