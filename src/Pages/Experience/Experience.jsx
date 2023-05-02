@@ -28,21 +28,21 @@ export default function Experience() {
 
     const props2 = {
         imageUrl: '/images/kindorseLogo.png',
-        technologies: [<FaReact/>,<TbBrandNextjs/>,<SiJavascript/>],
+        technologies: [<SiSvelte/>,<SiJavascript/>],
         projectUrl: '/experience/kindorse',
         gridArea: 'b',
     }
     
     const props3 = {
         imageUrl: '/images/CityOfFestivals.png',
-        technologies: [<FaReact/>,<TbBrandNextjs/>,<SiJavascript/>],
+        technologies: [<SiSvelte/>,<SiTypescript/>],
         projectUrl: '/experience/city-of-festivals',
         gridArea: 'c',
     }
 
     const props4 = {
         imageUrl: '/images/BAMX.png',
-        technologies: [<FaReact/>,<TbBrandNextjs/>,<SiJavascript/>],
+        technologies: [<FaReact/>,<SiKotlin/>,<SiAndroid/>, <SiTypescript/>],
         projectUrl: '/experience/bamx',
         gridArea: 'd',
     }

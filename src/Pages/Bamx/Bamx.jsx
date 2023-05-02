@@ -30,12 +30,19 @@ export default function Bamx() {
         ],
         info: 'I made this application as a university project. I was part of a small group of developers consisting of my friends, and together, we designed, structured, and developed the application. I worked on both the web and mobile parts, but I mainly focused on the mobile aspect, developing the app natively using Kotlin in Android Studio.',
         technologies: [{
-            name: 'Svelte',
-            value: <SiSvelte className="icon"/>
+            name: 'Kotlin',
+            value: <SiKotlin className="icon"/>
             },
-            {name: 'JavaScript', 
-            value: <SiJavascript className="icon"/>
-            }],
+            {name: 'AndroidS', 
+            value: <SiAndroid className="icon"/>
+            },
+            {name: 'React', 
+            value: <FaReact className="icon"/>
+            },
+            {name: 'TypeScript', 
+            value: <SiTypescript className="icon"/>
+            },
+        ],
         url: 'https://bamx.org.mx/',
 
     }
