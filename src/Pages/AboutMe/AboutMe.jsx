@@ -42,7 +42,7 @@ export default function AboutMe() {
                         </div>
                         <div className='SCDowload'>
                             <SingleCapsule color={'#FF90E8'} side={'-100vw'}>
-                                <a href="/documents/CV_APRIL_2023_JPYG.pdf" download="CV_2023" className='dowloadbtn'>
+                                <a href="/documents/CV_2023.pdf" download="CV_2023" className='dowloadbtn'>
                                     <h1>.04</h1>
                                     <h1 id='dowloadTxt'>Dowload CV</h1>
                                     <TbWorldDownload style={{fontSize: '3.5rem'}}/>
