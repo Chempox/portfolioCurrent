@@ -46,7 +46,7 @@ export default function GridSquare (props) {
     return (
         <div style={{gridArea: props.gridArea}} className='gs-main' ref={ref}>
             <div
-            onClick={()=> handleNavigation('/experience/fanguest')} 
+            onClick={()=> handleNavigation(props.projectUrl)} 
             // animate={isInView ? 'onscreen':'offscreen'} 
             // variants={variants}
             style={isInView ? {transform: 'scale(1)', opacity: '1'} : {transform: 'scale(0)', opacity: '0'}}
